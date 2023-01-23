@@ -1,0 +1,54 @@
+#index {
+  background-color: var(--color-bg);
+  .hero {
+    background-color: var(--color-primary);
+    h1,
+    p {
+      color: #fff;
+    }
+  }
+  .why-us {
+    .col {
+      margin-top: 4rem;
+      .card {
+        position: relative;
+        .card-body {
+          padding-top: 5rem;
+          i {
+            position: absolute;
+            top: -10%;
+            padding: 0.7rem 1.4rem;
+            font-size: var(--h2-fontsize);
+            background-color: var(--color-secondary);
+            color: #fff;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+  .how-it-works {
+    padding-top: 0;
+    .container-fluid {
+      padding: 2rem 0;
+      background-color: var(--color-primary);
+      .styled-heading-h2 {
+        h2 {
+          color: #fff;
+        }
+      }
+      p {
+        color: #fff;
+      }
+    }
+  }
+  .services {
+    .card {
+      height: 100%;
+      i {
+        font-size: var(--h2-fontsize);
+        color: var(--color-secondary);
+      }
+    }
+  }
+}

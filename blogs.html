@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs Skill Assessment</title>
+    <meta name="description" content="" />
+    <link
+      rel="icon"
+      href="./img/skill-assessment-favicon.svg"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.min.css" />
+    <style>
+      .blogs-grid .styled-heading-h1 h1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+        width: fit-content;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 0;
+        margin-bottom: 2rem;
+        color: var(--color-primary);
+      }
+      .blogs-grid .styled-heading-h1 h1:before {
+        background-color: var(--color-secondary);
+        content: "";
+        display: block;
+        height: 2px;
+        width: 75px;
+        margin-bottom: 7px;
+      }
+      .blogs-grid .styled-heading-h1 h1:after {
+        background-color: var(--color-secondary);
+        content: "";
+        display: block;
+        margin-left: auto;
+        height: 2px;
+        width: 75px;
+        margin-top: 5px;
+      }
+      .blogs-grid .cols {
+        position: relative;
+      }
+      .blogs-grid h2 {
+        font-size: var(--h3-fontsize);
+        font-weight: 600;
+      }
+      .blogs-grid p span:last-of-type {
+        float: right;
+      }
+      .blogs-grid p:last-of-type {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="./header.js"></script>
+    <my-header></my-header>
+    <main id="other-pages">
+      <section class="breadcrumbs">
+        <div class="container">
+          <span>Blogs</span>
+          <p><a href="index">Home</a> &raquo; Blogs</p>
+        </div>
+      </section>
+      <section class="blogs-grid">
+        <div class="container">
+          <div class="styled-heading-h1">
+            <h1>Our Blogs</h1>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 g-md-5">
+            <div class="cols">
+              <div class="card">
+                <img src="./img/blog-placeholder.svg" alt="" />
+                <div class="card-body">
+                  <p><span>Jan 23 2023</span> <span>18 min read</span></p>
+                  <h2>Why Does Engineers Choose us for CDR Report Writing?</h2>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dicta, hic? Ipsa, minima maxime tempora error doloremque
+                    laborum iure exercitationem, quasi molestiae expedita
+                    nostrum magnam quam sit enim molestias? Id, hic.
+                  </p>
+                  <hr />
+                  <a href="single-post.html" class="stretched-link"
+                    >More Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="cols">
+              <div class="card">
+                <img src="./img/blog-placeholder.svg" alt="" />
+                <div class="card-body">
+                  <p><span>Jan 23 2023</span> <span>18 min read</span></p>
+                  <h2>Why Does Engineers Choose us for CDR Report Writing?</h2>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dicta, hic? Ipsa, minima maxime tempora error doloremque
+                    laborum iure exercitationem, quasi molestiae expedita
+                    nostrum magnam quam sit enim molestias? Id, hic.
+                  </p>
+                  <hr />
+                  <a href="single-post.html" class="stretched-link"
+                    >More Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="cols">
+              <div class="card">
+                <img src="./img/blog-placeholder.svg" alt="" />
+                <div class="card-body">
+                  <p><span>Jan 23 2023</span> <span>18 min read</span></p>
+                  <h2>Why Does Engineers Choose us for CDR Report Writing?</h2>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dicta, hic? Ipsa, minima maxime tempora error doloremque
+                    laborum iure exercitationem, quasi molestiae expedita
+                    nostrum magnam quam sit enim molestias? Id, hic.
+                  </p>
+                  <hr />
+                  <a href="single-post.html" class="stretched-link"
+                    >More Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="cols">
+              <div class="card">
+                <img src="./img/blog-placeholder.svg" alt="" />
+                <div class="card-body">
+                  <p><span>Jan 23 2023</span> <span>18 min read</span></p>
+                  <h2>Why Does Engineers Choose us for CDR Report Writing?</h2>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dicta, hic? Ipsa, minima maxime tempora error doloremque
+                    laborum iure exercitationem, quasi molestiae expedita
+                    nostrum magnam quam sit enim molestias? Id, hic.
+                  </p>
+                  <hr />
+                  <a href="single-post.html" class="stretched-link"
+                    >More Details</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./footer.js"></script>
+    <my-footer></my-footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
