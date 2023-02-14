@@ -12,12 +12,13 @@
       margin-top: 4rem;
       .card {
         position: relative;
+        height: 100%;
         .card-body {
-          padding-top: 5rem;
+          padding-top: 4.5rem;
           i {
             position: absolute;
-            top: -10%;
-            padding: 0.7rem 1.4rem;
+            top: -3rem;
+            padding: 0.7rem 1.5rem;
             font-size: var(--h2-fontsize);
             background-color: var(--color-secondary);
             color: #fff;
@@ -27,18 +28,60 @@
       }
     }
   }
+  .about-us {
+    .counter {
+      margin: 1rem 0;
+      text-align: center;
+      align-items: center;
+      .col:nth-of-type(2) {
+        border-left: 0.3rem solid var(--color-primary);
+        border-right: 0.3rem solid var(--color-primary);
+      }
+      p {
+        text-align: center;
+      }
+    }
+  }
   .how-it-works {
     padding-top: 0;
     .container-fluid {
-      padding: 2rem 0;
-      background-color: var(--color-primary);
-      .styled-heading-h2 {
-        h2 {
+      .row:has(.styled-heading-h2) {
+        background-color: var(--color-primary);
+        padding: 2rem 0;
+        .styled-heading-h2 {
+          h2 {
+            color: #fff;
+          }
+        }
+        p {
           color: #fff;
         }
       }
-      p {
-        color: #fff;
+      .row:has(nav) {
+        padding: 0;
+        nav {
+          background-color: var(--color-primary);
+          .nav-link {
+            p {
+              text-align: center;
+              color: #fff;
+            }
+            &.active {
+              background-color: var(--color-bg);
+              box-shadow: none;
+              p {
+                color: #000;
+              }
+            }
+          }
+        }
+        .col:has(.tab-content) {
+          padding-top: 2rem;
+          .row {
+            align-items: center;
+            justify-content: space-around;
+          }
+        }
       }
     }
   }
@@ -48,6 +91,44 @@
       i {
         font-size: var(--h2-fontsize);
         color: var(--color-secondary);
+      }
+    }
+  }
+  .testimonials {
+    .swiper {
+      .swiper-wrapper {
+        .swiper-slide {
+          height: min-content !important;
+          .card {
+            .card-body {
+              .row {
+                justify-content: center;
+                margin-bottom: 1.5rem;
+                @media (width<=576px) {
+                  text-align: center;
+                  p {
+                    text-align: center;
+                  }
+                }
+                p {
+                  color: var(--color-primary);
+                  font-weight: 600;
+                  margin-bottom: 0;
+                }
+                span {
+                  font-size: var(--h5-fontsize);
+                  color: var(--color-text);
+                }
+              }
+            }
+          }
+        }
+      }
+      .swiper-pagination {
+        bottom: 0%;
+      }
+      .swiper-pagination-bullet-active {
+        background-color: var(--color-primary);
       }
     }
   }

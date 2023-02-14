@@ -11,30 +11,30 @@ class MyFooter extends HTMLElement {
             <h2 class="mx-lg-0">Contact Us</h2>
           </div>
           <div class="contact-info row">
-            <div class="col-2">
+            <div class="col-12 col-md-2">
               <i class="bi-geo-alt"></i>
             </div>
-            <div class="col-8">
+            <div class="col-12 col-md-8">
               <h3>Address</h3>
               <p>Melbourne, Australia</p>
             </div>
           </div>
           <div class="contact-info row">
-            <div class="col-2">
+            <div class="col-12 col-md-2">
               <i class="bi-phone"></i>
             </div>
-            <div class="col-8">
+            <div class="col-12 col-md-8">
               <h3>Phone</h3>
               <p>+61 480000000</p>
             </div>
           </div>
           <div class="contact-info row">
-            <div class="col-2">
+            <div class="col-12 col-md-2">
               <i class="bi-envelope"></i>
             </div>
-            <div class="col-8">
+            <div class="col-12 col-md-8">
               <h3>Email</h3>
-              <p>Overflow bug here</p>
+              <p>info@skillassessmentaustralia.com</p>
             </div>
           </div>
         </div>
@@ -124,7 +124,7 @@ class MyFooter extends HTMLElement {
           </li>
         </ul>
       </div>
-      <div class="col-12 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3">
         <h4>Useful Links</h4>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -135,7 +135,7 @@ class MyFooter extends HTMLElement {
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </div>
-      <div class="col-12 col-lg-4">
+      <div class="col-12 col-md-6 col-lg-4">
         <h4>Our Services</h4>
         <ul>
           <li><a href="cdr-report-writing.html">CDR Report Writing</a></li>
